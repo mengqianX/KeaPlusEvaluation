@@ -36,7 +36,14 @@ APK文件和Class文件请到[release](https://github.com/mengqianX/KeaPlusEvalu
       python3 ./themis.py --avd test_hybirddroid_android11 --apk "D:\GitHubRepo\AndroLog\output\newpipe-debug.apk" -o ./output/chess --hybirddroid --offset 0 --time 180 --repeat 5
       ```
 
-   - 参数说明 --avd 模拟器名称，自定义 --apk 被测apk路径 -o 测试结果目录 --hybirddroid 测试工具名称 --offset 模拟器端口偏移量 --time 实验时长，以分钟为单位，例如3h=180min --repeat 实验重复次数
+   - 参数说明
+       -  --avd 模拟器名称，自定义
+       - --apk 被测apk路径
+       - -o 测试结果目录
+       - --hybirddroid 测试工具名称
+       - --offset 模拟器端口偏移量
+       - --time 实验时长，以分钟为单位，例如3h=180min
+       - --repeat 实验重复次数
 
 3. 统计覆盖率数据
 
