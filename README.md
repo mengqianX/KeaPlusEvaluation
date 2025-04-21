@@ -28,6 +28,7 @@ APK文件和Class文件请到[release](https://github.com/mengqianX/KeaPlusEvalu
 
    - 在windows上，themis.py（控制实验设置和测试流程的python脚本）,  run_kea.ps1（运行工具的power shell脚本）, dump_coverage.ps1（获取覆盖率数据的power shell脚本）。
    - 在wsl/git bash/linux系统上，themis.py（控制实验设置和测试流程的python脚本）,  run_kea.sh（运行工具的shell脚本）, dump_coverage.sh（获取覆盖率数据的shell脚本）。
+   - run_kea脚本可以在run_hybriddroid脚本上自行修改。
 
 2. 实验命令：进入scripts目录下，需要运行以下命令即可
 
